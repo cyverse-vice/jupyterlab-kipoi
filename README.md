@@ -2,16 +2,16 @@
 <INFORMATION ABOUT THE CONTAINER HERE> for [CyVerse VICE](https://learning.cyverse.org/projects/vice/en/latest/). 
   
 <SET UP CIRCLE CI>
+  
 [![CircleCI](https://circleci.com/gh/cyverse-vice/<CONTAINER-NAME-HERE>.svg?style=svg)](https://circleci.com/gh/cyverse-vice/<CONTAINER-NAME-HERE>) [![license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)  [![Project Supported by CyVerse](https://img.shields.io/badge/Supported%20by-CyVerse-blue.svg)](https://www.cyverse.org)  [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3246932.svg)](https://doi.org/10.5281/zenodo.3246932)
 
 image | tag | size | metrics | build | status |  
 ----- | --- | ---- | ------- | ------|--------|
 [![DockerHub](https://img.shields.io/badge/DockerHub-brightgreen.svg?style=popout&logo=Docker)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>) | [![](https://images.microbadger.com/badges/version/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE> "<TAG>") |  [![](https://images.microbadger.com/badges/image/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE> "<TAG>") | [![](https://img.shields.io/docker/pulls/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>)  |  [![](https://img.shields.io/docker/cloud/automated/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>/builds) | [![](https://img.shields.io/docker/build/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://cloud.docker.com/u/cyversevice/repository/docker/cyversevice/<CONTAINER-NAME-HERE>)
 
-image | tag | size | metrics | build |
------ | ----| ---- | ------- | ------|
-<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=19f6a94b-71b6-4034-a7a5-40f7bea0b85b&app-id=75773c76-8ee1-11e9-907f-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a> | [![](https://images.microbadger.com/badges/version/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE> "<TAG>") | [![](https://images.microbadger.com/badges/image/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE>) | [![](https://img.shields.io/docker/pulls/cyversevice/<CONTAINER-NAME-HERE>/latest.svg)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>)  |  [![](https://img.shields.io/docker/automated/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>)|
-tba | [![](https://images.microbadger.com/badges/version/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE> "<TAG>") | [![](https://images.microbadger.com/badges/image/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE>) | [![](https://img.shields.io/docker/pulls/cyversevice/<CONTAINER-NAME-HERE>/<TAG>.svg)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>)  |  [![](https://img.shields.io/docker/automated/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>)
+image | tag | 
+----- | ----|
+<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=19f6a94b-71b6-4034-a7a5-40f7bea0b85b&app-id=75773c76-8ee1-11e9-907f-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a> | [![](https://images.microbadger.com/badges/version/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE> "<TAG>") 
 
 
 # Instructions
