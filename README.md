@@ -1,5 +1,7 @@
 # TOOL NAME HERE
 
+## IMPORTANT: COPY THIS README.MD into every tagged folder in this repository
+
 INFORMATION ABOUT THE CONTAINER HERE
 
 SET UP CIRCLE CI
