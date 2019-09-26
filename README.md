@@ -24,9 +24,9 @@ example:
 
 ## Run Docker locally or on a Virtual Machine
 
-To run the RStudio container, you must first pull them from DockerHub, or activate a [CyVerse Account](https://user.cyverse.org/services/mine).
+To run the container, you must first pull them from DockerHub, or activate a [CyVerse Account](https://user.cyverse.org/services/mine).
 
-A Docker container for running RStudio is hosted on DockerHub.
+A Docker container hosted on DockerHub.
 
 ```
 docker pull cyversevice/<CONTAINER-NAME-HERE>:<TAG>
@@ -36,11 +36,11 @@ docker pull cyversevice/<CONTAINER-NAME-HERE>:<TAG>
 docker run -it --rm -d cyversevice/<CONTAINER-NAME-HERE>:<TAG>
 ```
 
-The default username is `jovyan`
-
 ## Run Docker container in CyVerse VICE
 
-Unless you plan on making changes to this container, you should just use the existing launch button above. 
+Unless you plan on making changes to this container, you should just use the existing launch button above.
+
+You can build a new Docker container with additional dependencies from this Docker Hub image by using the `FROM cyversevice/<CONTAINER-NAME-HERE>:<TAG>` at the beginning of your own Dockerfile.
 
 ###### Developer notes
 
