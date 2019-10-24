@@ -1,5 +1,6 @@
+version: 2
 jobs:
-  build1:
+  build:
     docker:
       - image: cyversevice/jupyterlab-kipoi:0.6.24
     steps:
