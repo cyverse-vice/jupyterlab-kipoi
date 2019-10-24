@@ -5,7 +5,3 @@ jobs:
     steps:
       - checkout
       - run: jupyter lab --version
-workflows:
-  version: 2
-    jobs:
-      - build1
