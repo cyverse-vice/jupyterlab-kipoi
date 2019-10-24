@@ -1,0 +1,11 @@
+jobs:
+  build1:
+    docker:
+      - image: cyversevice/jupyterlab-kipoi:0.6.24
+    steps:
+      - checkout
+      - run: jupyter lab --version
+workflows:
+  version: 2
+    jobs:
+      - build1
