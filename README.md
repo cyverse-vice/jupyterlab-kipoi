@@ -8,7 +8,7 @@ UPDATE BADGE URLS TO MATCH CONTAINER TAG
 
 quick launch | tag | size | metrics | build | status |  
 ------------ | --- | ---- | ------- | ------|--------|
-<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=19f6a94b-71b6-4034-a7a5-40f7bea0b85b&app-id=75773c76-8ee1-11e9-907f-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a> | [![](https://images.microbadger.com/badges/version/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE> "<TAG>") |  [![](https://images.microbadger.com/badges/image/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://microbadger.com/images/cyversevice/<CONTAINER-NAME-HERE> "<TAG>") | [![](https://img.shields.io/docker/pulls/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>)  |  [![](https://img.shields.io/docker/cloud/automated/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://hub.docker.com/r/cyversevice/<CONTAINER-NAME-HERE>/builds) | [![](https://img.shields.io/docker/build/cyversevice/<CONTAINER-NAME-HERE>.svg)](https://cloud.docker.com/u/cyversevice/repository/docker/cyversevice/<CONTAINER-NAME-HERE>)
+<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=19f6a94b-71b6-4034-a7a5-40f7bea0b85b&app-id=75773c76-8ee1-11e9-907f-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a> | [![](https://images.microbadger.com/badges/version/cyversevice/jupyterlab-kipoi.svg)](https://microbadger.com/images/cyversevice/jupyterlab-kipoi "0.6.24") |  [![](https://images.microbadger.com/badges/image/cyversevice/jupyterlab-kipoi.svg)](https://microbadger.com/images/cyversevice/jupyterlab-kipoi "0.6.24") | [![](https://img.shields.io/docker/pulls/cyversevice/jupyterlab-kipoi.svg)](https://hub.docker.com/r/cyversevice/jupyterlab-kipoi)  |  [![](https://img.shields.io/docker/cloud/automated/cyversevice/jupyterlab-kipoi.svg)](https://hub.docker.com/r/cyversevice/jupyterlab-kipoi/builds) | [![](https://img.shields.io/docker/build/cyversevice/jupyterlab-kipoi.svg)](https://cloud.docker.com/u/cyversevice/repository/docker/cyversevice/jupyterlab-kipoi)
 
 # Instructions
 
@@ -23,23 +23,15 @@ To run the container, you must first pull them from DockerHub, or activate a [Cy
 A Docker container hosted on DockerHub.
 
 ```
-docker pull cyversevice/<CONTAINER-NAME-HERE>:<TAG>
+docker pull cyversevice/jupyterlab-kipoi:0.6.24
 ```
 
 ```
-docker run -it --rm -d cyversevice/<CONTAINER-NAME-HERE>:<TAG>
+docker run -it --rm -d -p 8888:8888 cyversevice/jupyterlab-kipoi:0.6.24
 ```
 
 ## Run Docker container in CyVerse VICE
 
 Unless you plan on making changes to this container, you should just use the existing launch button above.
 
-You can build a new Docker container with additional dependencies from this Docker Hub image by using the `FROM cyversevice/<CONTAINER-NAME-HERE>:<TAG>` at the beginning of your own Dockerfile.
-
-###### Developer notes
-
-To test the container locally:
-
-```
-docker run -it --rm -v /$HOME:/app --workdir /app -p 8888:8888 -e REDIRECT_URL=http://localhost:8888 cyversevice/<CONTAINER-NAME-HERE>:<TAG>
-```
+You can build a new Docker container with additional dependencies from this Docker Hub image by using the `FROM cyversevice/jupyterlab-kipoi:0.6.24` at the beginning of your own Dockerfile.
