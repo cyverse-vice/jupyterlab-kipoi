@@ -1,13 +1,7 @@
  [![Project Supported by CyVerse](https://img.shields.io/badge/Supported%20by-CyVerse-blue.svg)](https://learning.cyverse.org/projects/vice/en/latest/) [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3246932.svg)](https://doi.org/10.5281/zenodo.3246932) [![license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)  
 
- # TOOL NAME HERE
-
-## IMPORTANT: COPY THIS README.MD into any tagged version folder in this repository - Docker Hub will use the README.md in the folder with the Dockerfile
-
-PUT INFORMATION ABOUT THE REPOSITORY AND CONTAINER TYPE HERE
-
-SET UP CIRCLE CI AND OTHER BADGES
-  
+ # Kipoi
+ 
 [![DockerHub](https://img.shields.io/badge/DockerHub-brightgreen.svg?style=popout&logo=Docker)](https://hub.docker.com/r/cyversevice/rstudio-base) [![CircleCI](https://circleci.com/gh/cyverse-vice/rstudio-base.svg?style=svg)](https://circleci.com/gh/cyverse-vice/<CONTAINER-NAME-HERE>) 
 
 UPDATE BADGE URLS TO MATCH CONTAINER TAG
