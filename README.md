@@ -2,7 +2,7 @@
 
  # Kipoi
  
-[![DockerHub](https://img.shields.io/badge/DockerHub-brightgreen.svg?style=popout&logo=Docker)](https://hub.docker.com/r/cyversevice/rstudio-base) [![CircleCI](https://circleci.com/gh/cyverse-vice/rstudio-base.svg?style=svg)](https://circleci.com/gh/cyverse-vice/jupyterlab-kipoi) 
+[![DockerHub](https://img.shields.io/badge/DockerHub-brightgreen.svg?style=popout&logo=Docker)](https://hub.docker.com/r/cyversevice/rstudio-base) [![CircleCI](https://circleci.com/gh/cyverse-vice/jupyterlab-kipoi.svg?style=svg)](https://circleci.com/gh/cyverse-vice/jupyterlab-kipoi) 
 
 UPDATE BADGE URLS TO MATCH CONTAINER TAG
 
